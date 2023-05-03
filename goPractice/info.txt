@@ -1,0 +1,16 @@
+1. Controllers : Contains controller that accepts a request and call a particular service to prcess it.
+
+2. Services: Contains service that has the logic for doing all the process like manipulating Db and giving back the desired result
+
+3. Model: Contains the struct for storing data in Db or fetching data from Db
+
+4. Db : Keep your db related operations here, these can be used in Services to fetch/update/insert/delete data from Db.
+        Place db connection file as well inside this folder.
+
+5. Routes: Keep all your routes here and pass the name of the controller
+
+6. Config: Keep all your configurations here like, fetching variables from .env file or even db config can be placed here.
+
+7. Constants: Keep all constants here, can also categorise them in seperate files.
+
+8. Utils: Keep commonly used functions here like capitalizing first letter  , etc.
